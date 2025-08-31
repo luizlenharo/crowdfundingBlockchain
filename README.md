@@ -44,13 +44,27 @@ python -m http.server 3000
 ## Estrutura do projeto
 
 ```
-.
-├── backend/
-│   ├── main.py
-│   ├── setup.py
-│   └── requirements.txt
-└── frontend/
-    └── [arquivos do frontend]
+./
+├── app/
+│   ├── __init__.py
+│   ├── main.py              # Ponto de entrada principal
+│   ├── config.py            # Configurações
+│   ├── models/              # Modelos de dados
+│   │   ├── __init__.py
+│   │   └── user.py
+│   ├── routes/              # Rotas/endpoints
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   └── api.py
+│   ├── services/            # Lógica de negócio
+│   │   ├── __init__.py
+│   │   └── user_service.py
+│   └── utils/               # Funções auxiliares
+│       ├── __init__.py
+│       └── helpers.py
+├── tests/
+├── requirements.txt
+└── README.md
 ```
 
 ## Observações
