@@ -75,9 +75,6 @@ python -m http.server 3000
 .
 ├── README.md
 ├── backend
-│   ├── __pycache__
-│   │   ├── main.cpython-312.pyc
-│   │   └── main.cpython-313.pyc
 │   ├── app
 │   │   ├── __init__.py
 │   │   ├── config.py
