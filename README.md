@@ -1,5 +1,33 @@
 # Projeto Blockchain
 
+## Descrição do Projeto
+
+Sistema de vaquinha (crowdfunding) descentralizada que utiliza a blockchain Stellar para registrar doações de forma transparente e imutável. O organizador define uma meta em XLM, e as pessoas podem doar até que a meta seja atingida. Cada doação é registrada na blockchain com o nome do doador e valor.
+
+## Objetivo
+
+Demonstrar uso avançado da blockchain Stellar para gerenciamento de fundos coletivos, com transparência total e impossibilidade de manipulação dos valores arrecadados.
+
+## Arquitetura
+
+### Frontend (Vue.js)
+- Interface para criar campanhas
+- Dashboard para doações
+- Progresso visual da meta
+- Lista de doadores em tempo real
+
+### Backend (FastAPI)
+- API para gerenciar campanhas
+- Processamento de doações via Stellar
+- Cálculo automático do progresso
+- Validação de metas atingidas
+
+### Blockchain Integration
+- **Rede**: Stellar Testnet
+- **Conta Campanha**: Recebe todas as doações
+- **Memos**: Nome do doador + informações da doação
+- **Valor**: Quantia real doada em XLM
+
 ## Como executar
 
 ### 1. Instalar as dependências
