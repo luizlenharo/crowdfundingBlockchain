@@ -628,7 +628,7 @@
                     this.lastTransactionHash = '';
 
                     try {
-                        const response = await axios.post(`${this.apiBaseUrl}/donate`, {
+                        const response = await axios.post(`${this.apiBaseUrl}/donations`, {
                             donor_name: this.donorName.trim(),
                             amount: parseFloat(this.donationAmount)
                         });

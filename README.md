@@ -24,7 +24,7 @@ python ./setup.py
 Inicie o servidor backend com uvicorn:
 
 ```bash
-python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ### 4. Executar o frontend
