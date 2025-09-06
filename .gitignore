@@ -34,3 +34,4 @@ wheels/
 .DS_Store
 Thumbs.db
 campaign_info.json
+stellar_accounts.json
